@@ -20,16 +20,15 @@ Project Structure
 
 │   ├── main.py                   # Main script to initialize detection, GPIO, and server upload
 
+│   ├── yolo_detection.py         # YOLO-based detection script
+
+│   ├── gpio_control.py           # Controls GPIO (fan, LED) based on detection
+
+│   ├── image_upload.py           # Handles image upload and data submission to server
+
 ├── model/
 
 │   ├── best.pt                   # YOLO model weights for person detection
 
-├── yolo_detection.py             # YOLO-based detection script
-
-├── gpio_control.py               # Controls GPIO (fan, LED) based on detection
-
-├── image_upload.py               # Handles image upload and data submission to server
-
-└── README.md                     # Project documentation
 
 
