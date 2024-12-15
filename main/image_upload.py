@@ -3,9 +3,9 @@ from datetime import datetime
 import cv2
 
 # Imgur API client ID for authorization
-CLIENT_ID = '78c668ac8da2408'
+CLIENT_ID = '...'
 # URL of the server endpoint to upload classroom status data
-UPLOAD_URL = 'http://192.168.1.81:3000/api/classroom_status/'
+UPLOAD_URL = '...'
 
 # Function to upload data to the server
 def upload_to_server(image, person_count):
