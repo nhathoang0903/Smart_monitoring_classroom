@@ -16,7 +16,7 @@ def read_people_count():
 
 # Hàm gửi dữ liệu đến Web API
 def send_data_to_api(temperature, people_count):
-    url = "http://172.26.24.142:3000/api/classroom_status/"  # Thay thế bằng URL của Web API thực tế
+    url = ""  # Thay thế bằng URL của Web API thực tế
     headers = {
         'Content-Type': 'application/json',
         'Authorization': 'Bearer YOUR_API_KEY'  # Nếu API cần xác thực
